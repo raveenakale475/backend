@@ -17,7 +17,7 @@ require("dotenv").config();
 const { config } = require("./configs/db");
 
 app.get("/", (req, res) => {
-  res.send("Welcome to the task planner application");
+  res.send("Welcome to the banking system application");
 });
 
 app.listen(process.env.port, async () => {
